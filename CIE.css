@@ -1,0 +1,82 @@
+@import url(section1.css);
+
+body {
+    font-family: Lao Muang Khong , Georgia;
+    background-image: url(/imagenes/background2.jpg);    
+    background-repeat: repeat-x;
+    margin: 0;
+       
+}
+.container {
+    font-size: 80%;
+    color: blueviolet;
+    font-style: italic;
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 40%;
+    padding: 0.3rem;
+}
+.container img {
+    width: 7%;
+    height: 7%;
+}
+
+.header {
+    background: rgb(214, 211, 218);
+    color: blueviolet;
+    position: fixed;
+    width: 100%;
+    left:0;
+    margin:0;
+    
+}
+
+.header a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 125%;
+   
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 5%;
+    margin:0;
+    width: 100%;
+    
+   
+}
+
+.navbar ul li {
+   display:flex;
+   flex-wrap: nowrap;
+    width: 80%;
+    
+}
+
+.navbar ul li a {
+    display: block;
+    border-radius: 5%;
+    transition: all 0.4s linear;
+    padding: 0 5%;
+
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(194, 166, 221);
+    border-radius: 10%;
+
+}
+
+.imglista {
+    display:none
+}
