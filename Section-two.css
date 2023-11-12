@@ -75,7 +75,6 @@ nav li:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    
 }
 
 .section__imgs{
@@ -183,6 +182,7 @@ footer{
     top:20%;
   }
 
+  
   @media only screen and (min-width: 320px) and (max-width: 576px) {
     .Logo__nav__container {
         width: 100%;
