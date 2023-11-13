@@ -2,9 +2,10 @@ footer{
     width: 100%;
     background-image: url("imag/blue.jpg");
     color: white;
-    border-radius: 20px;
+    border-radius: 2%;
     text-align: center;
 }
+
 .redes{
     padding: 1%;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
@@ -58,13 +59,16 @@ footer{
     padding: 2%;
     font-family: Lao Muang Khong;
   }
+  
 
 
   @media  (max-width: 760px) {
     
     footer{
-        width: 100%;
-      padding-left: 23px;
+      width: 100%;
+      display: flex;
       flex-direction: column-reverse;
+      align-items: center;
+      padding: auto;
     }
     }

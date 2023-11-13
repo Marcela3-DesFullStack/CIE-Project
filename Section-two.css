@@ -48,6 +48,7 @@
     border-radius: 55%;
     text-align: center;
 }
+
 .sectiontwo__texts p {
     font-size: 20px;
     background-color: white;
@@ -58,11 +59,9 @@
     top:5%;
     left: 5%;
     margin:5%   
-   
 }
 
 
-  
   @media  (max-width: 760px) {
     
     .sectiontwo__container {
