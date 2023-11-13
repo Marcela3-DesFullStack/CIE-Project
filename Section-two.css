@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -81,7 +83,7 @@ nav li:hover{
    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
    width: 70%;
    border-radius: 30%;
-   padding: 5%;
+   padding:5%;
    top:5%;
    left: 5%; 
    margin:5%
@@ -114,6 +116,7 @@ nav li:hover{
     text-align: center;
 }
 .sectiontwo__texts p {
+    font-size: 20px;
     background-color: white;
     text-align: center;
     width: 80%;
@@ -122,77 +125,20 @@ nav li:hover{
     top:5%;
     left: 5%;
     margin:5%   
+   
 }
 
-footer{
-    width: 100%;
-    background-image: url("imag/blue.jpg");
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-}
-.redes{
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.fa {
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
-    padding: 2%;
-    font-size: 3%;
-    width: 3%;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background:rgba(13, 129, 129, 0.72);
-    color: white;
-  }
-  
-  .fa-twitter {
-    background:rgba(13, 129, 129, 0.72);
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background:rgba(13, 129, 129, 0.72);
-    color: white;
-  }
-  
-  .fa-youtube {
-    background:rgba(13, 129, 129, 0.72);
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: rgba(13, 129, 129, 0.72);
-    color: white;
-  }
-
-  .footer__texts {
-    top:20%;
-  }
 
   
-  @media only screen and (min-width: 320px) and (max-width: 576px) {
-    .Logo__nav__container {
-        width: 100%;
-        padding-left: 23px;
-        flex-direction: column-reverse;}
-
+  @media  (max-width: 760px) {
+    
     .sectiontwo__container {
       width: 100%;
-      padding-left: 23px;
-      flex-direction: column-reverse;}
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: auto;
+    }
     
     footer{
         width: 100%;
