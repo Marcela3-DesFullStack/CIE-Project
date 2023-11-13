@@ -1,0 +1,45 @@
+
+
+/*h2 {
+    padding-top: 9%;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 85%;
+}*/
+ 
+.slider-frame {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-frame ul {
+    padding: 0;
+    display: flex;
+    width:400%;
+    animation: changes 20s infinite alternate ease-in-out;
+    
+}
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+.slider-frame img {
+    width: 100%;
+    height: 60%;
+    
+  }
+@keyframes changes {
+    0% {margin-left: 0% ;}
+    20% {margin-left: 0% ;}
+
+    25% {margin-left: -100% ;}
+    45% {margin-left: -100% ;}
+
+    50% {margin-left: -200% ;}
+    70% {margin-left: -200% ;}
+
+    75% {margin-left: -300% ;}
+    95% {margin-left: -300% ;}
+}
