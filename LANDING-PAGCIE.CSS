@@ -1,10 +1,10 @@
 
 @import url("CIE.css");
-@import "section1.css";
-@import "section-two.css";
-@import "header-other.css";
-@import "section3.css";
-@import "seccion4.css";
-@import "style-form.css";
-@import "Footer.css";
+@import url("section1.css");
+@import url("section-two.css");
+@import url("header-other.css");
+@import url("section3.css");
+@import url("seccion4.css");
+@import url("style-form.css");
+@import url("Footer.css");
 
