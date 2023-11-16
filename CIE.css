@@ -24,7 +24,9 @@
 
 
 .header {
-    background: rgb(21, 146, 196);
+    background-color: #BE93C5;
+        background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+        background: linear-gradient(to right, #7BC6CC, #BE93C5);
     
 }
 
@@ -70,10 +72,10 @@ li{
     cursor: pointer;
 
 }
-
 #lista {
     display: none;
 }
+
 
 .imglista {
     cursor: pointer;
@@ -82,10 +84,11 @@ li{
     
 @media(max-width: 768px) {
     .navbar{
-        display: none;
+        display: block;
     }
 
-    /* a{
-        flex-direction: column;
-    } */
+    .imglista{
+        display: block;
+        width: 100px;
+    }
 }
