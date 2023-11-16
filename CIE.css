@@ -47,16 +47,14 @@
     font-size: 120%;
     list-style: none;
     display: inline-flex;
-    padding: 0 5%;
+    padding: 0 80%;
+    
 }
 
 li{
     margin: 20px;
 }
 
-.menu {
-    margin-left: 90%;
-}
 
 .navbar ul li a {
     display: block;
@@ -82,3 +80,12 @@ li{
 }
 
     
+@media(max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+
+    /* a{
+        flex-direction: column;
+    } */
+}
