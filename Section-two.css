@@ -29,9 +29,10 @@
 }
 
 .sectiontwo__texts {
-    box-shadow: 0 8px 8px 0 rgb(13, 129, 129);
+    background-color: #BE93C5;
+        background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+        background: linear-gradient(to right, #7BC6CC, #BE93C5);
     width:70%;
-    background-color: aliceblue;
     border-radius: 5%;
     padding:3%;
     top:3%;
@@ -41,6 +42,7 @@
 
 .sectiontwo__texts h2 {
     background-color: rgb(13, 129, 129);
+    border-radius: 20px;
     font-family: "Gabriola";
     text-align: center;
     color: white; 
@@ -53,7 +55,6 @@
 }
 
 .sectiontwo__texts p {
-    background-color: white;
     font-family: "Gabriola";
     font-size: 140%;
     text-align: center;

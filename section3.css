@@ -227,3 +227,12 @@
 .hrm8:hover {
     transform: scale(1.1);
 }
+
+
+@media (max-width: 600px) {
+    .parte1, .parte2, .parte3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
