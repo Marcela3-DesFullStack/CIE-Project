@@ -15,9 +15,17 @@
     padding: 10px;
 }
 .containerone img {
-    width: 10%;
+    width: 50px;
     height: 5%;
     margin-right: 10px;
+}
+
+.logo {
+    margin-right: 10px; border-radius: 15px;
+    max-width: 30%;
+    object-fit: cover;
+    object-position: bottom;
+    box-shadow: 0 8px 8px 0 rgb(13, 129, 129);
 }
 
 
@@ -27,6 +35,9 @@
     background-color: #BE93C5;
         background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
         background: linear-gradient(to right, #7BC6CC, #BE93C5);
+        position: fixed;
+        width: 100%;
+        z-index: 1;
     
 }
 
@@ -67,8 +78,9 @@ li{
 }
 
 .navbar ul li a:hover {
-    background-color: rgb(194, 166, 221);
+    background-color: rgb(157, 52, 255);
     border-radius: 10%;
+    padding: 10px;
     cursor: pointer;
 
 }
@@ -79,17 +91,29 @@ li{
 
 .imglista {
     cursor: pointer;
-    display: block;
+    display: none;
+    width: 10px;
+    height: 10px;
+}
+
+.btn {
+    border: solid;
+    padding: 10px 10px;
 }
 
     
 @media(max-width: 768px) {
-    .navbar{
-        display: block;
+    .navbar ul {
+        display: none;
+        
+    }   
+    .imglista{
+        display:block;
+        padding-left: 40%;
+        
+        
+
     }
 
-    .imglista{
-        display: block;
-        width: 100px;
-    }
+
 }

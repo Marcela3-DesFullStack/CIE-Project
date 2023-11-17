@@ -1,6 +1,8 @@
 footer{
     width: 100%;
-    background-image: url("imag/blue.jpg");
+    background-color: #BE93C5;
+      background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+      background: linear-gradient(to right, #7BC6CC, #BE93C5);
     color: white;
     border-radius: 2%;
     text-align: center;

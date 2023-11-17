@@ -24,6 +24,7 @@
 .section3 {
     display: grid;
     grid-template-areas: "parte1 parte2 parte3";
+    height: 900px;
 }
 
 .parte1 {
